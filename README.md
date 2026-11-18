@@ -3,6 +3,10 @@
 Pratinjau desain untuk calon klien Saideo Surabaya (@agensaideo.sby). Tiga arah
 visual, isi dan harga sama, semuanya memuat jalur pembelian dan jalur mitra.
 
+Palet mengikuti permintaan klien: Cloud Blue #EDF4FA, Powder Sky #CFE3F1,
+Calm Ocean #8FB6D8, Dusty Denim #5F86A6, dan Midnight Blue #243A5E. Dua turunan
+dipakai untuk teks agar lolos AA: #4A627D dan #46688C. Alasannya di `DESIGN.md`.
+
 Bukan situs final. Harga, nomor WhatsApp, dan beberapa keterangan masih menunggu
 konfirmasi pemilik (lihat bagian "Yang menunggu klien").
 

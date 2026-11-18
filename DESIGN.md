@@ -1,8 +1,11 @@
-# DESIGN.md - Saideo Surabaya (tiga mockup)
+# DESIGN.md - Saideo Surabaya (tiga arah, palet biru klien)
 
-Dokumen ini menjelaskan tiga arah desain yang dibangun untuk calon klien Saideo
-Surabaya. Isi dan harga sama di ketiganya, yang berbeda arah visual, susunan
-bagian, dan cara menonjolkan jalur mitra.
+Dokumen ini menjelaskan tiga arah desain untuk calon klien Saideo Surabaya.
+Isi dan harga sama di ketiganya, yang berbeda arah visual, susunan bagian, dan
+cara menonjolkan jalur mitra.
+
+Palet mengikuti permintaan klien. Versi sebelumnya memakai hijau, krem, dan
+kuning; seluruhnya sudah diganti.
 
 Berkas acuan: skill `situs-klien` dan `antislop` mode `during`.
 
@@ -29,73 +32,93 @@ sementara beranda tetap memuat ringkasannya.
 
 Halaman dalam ketiga arah memakai kerangka kelas yang sama (`d-kepala`, `d-dua`,
 `d-kartu`, `d-faq`, `d-fakta`). Yang berubah per arah hanya token warna,
-tipografi, sudut, dan bingkai. Beranda tetap paling khas karena susunan
-bagiannya memang berbeda di tiap arah.
+tipografi, sudut, dan bingkai.
+
+## Palet klien
+
+| Nama | Nilai | Peran |
+|---|---|---|
+| Cloud Blue | #EDF4FA | latar terang, teks di atas biru tua |
+| Powder Sky | #CFE3F1 | panel lembut, tombol terang, penanda |
+| Calm Ocean | #8FB6D8 | aksen dekoratif di latar gelap |
+| Dusty Denim | #5F86A6 | bingkai foto dan hover, bukan teks |
+| Midnight Blue | #243A5E | teks utama, tombol, latar gelap |
+
+Dua turunan dibuat karena batas kontras, bukan selera:
+
+| Turunan | Nilai | Alasan |
+|---|---|---|
+| Redup | #4A627D | teks penjelas. Dusty Denim hanya 3.47:1 di atas Cloud Blue |
+| Denim tua | #46688C | harga dan label. 5.23:1 di atas Cloud Blue, 5.80:1 di atas putih |
+
+Dusty Denim tidak dipakai untuk teks kecil. Di atas Cloud Blue hanya 3.47:1,
+gagal AA. Perannya tinggal bingkai foto dan garis hover.
 
 ## Arah 1 - Bersih Klinis
 
 Dial ENERGY 1 / RHYTHM 2 / MOTION 1.
 
 Design read: halaman produk perawatan harian yang dijual agen resmi, terasa
-seperti apotek modern, bukan iklan ramai.
+seperti apotek modern, bukan iklan ramai. Latar biru awan hampir putih, kartu
+putih, dan tinta biru tengah malam.
 
 | Token | Nilai | Dipakai untuk |
 |---|---|---|
-| kertas | #F5F8F6 | latar halaman |
+| kertas | #EDF4FA | latar halaman |
 | kartu | #FFFFFF | panel, baris produk |
-| tinta | #12231E | teks utama |
-| redup | #4E615B | teks penjelas |
-| hijau | #0C4A3A | tombol, tautan, pita mitra |
-| mint | #DCEBE3 | bagian alasan, ajakan akhir |
-| tembaga | #A6431F | harga, nomor bagian |
-| garis | #D3E0DA | garis rambut |
+| tinta | #243A5E | teks utama |
+| redup | #4A627D | teks penjelas |
+| utama | #243A5E | tombol, tautan, pita mitra |
+| aksen | #CFE3F1 | bagian alasan, chip, ajakan akhir |
+| harga | #46688C | harga, nomor bagian |
+| garis | #C9DCEB | garis rambut |
 
 Judul memakai Bricolage Grotesque, teks Plus Jakarta Sans. Susunan: hero belah
-dua, daftar produk bergaris, empat alasan berkolom, pita hijau untuk mitra,
-kutipan dengan tangkapan layar, langkah bernomor.
+dua, etalase foto dengan daftar produk bergaris, empat alasan berkolom, pita biru
+tua untuk mitra, kutipan dengan tangkapan layar, langkah bernomor.
 
 ## Arah 2 - Kota Malam
 
 Dial ENERGY 4 / RHYTHM 3 / MOTION 2.
 
-Design read: poster jalanan Surabaya. Huruf besar dan rapat, latar hampir hitam,
-hijau limau sebagai penanda. Paling berani dari ketiganya.
+Design read: poster jalanan Surabaya. Biru tengah malam sebagai latar, huruf
+besar dan rapat, biru langit sebagai penanda. Paling berani dari ketiganya.
 
 | Token | Nilai | Dipakai untuk |
 |---|---|---|
-| malam | #0C0D10 | latar halaman |
-| panel | #16181D | kartu dan panel |
-| garis | #2A2D35 | pemisah |
-| kertas | #F2F4F1 | teks utama |
-| redup | #A9AFBB | teks penjelas |
-| limau | #D8F25A | tombol, harga, aksen |
-| biru | #1F49D6 | hanya di palet contoh, belum dipakai |
+| malam | #243A5E | latar halaman |
+| panel | #2C466E | kartu dan panel |
+| garis | #3E587C | pemisah |
+| kertas | #EDF4FA | teks utama |
+| redup | #B9CDE0 | teks penjelas |
+| aksen | #CFE3F1 | tombol, harga, penanda |
+| laut | #8FB6D8 | hover dan aksen kecil |
 
 Judul memakai Anton, teks Plus Jakarta Sans. Susunan: judul raksasa, panggung
-foto penuh lebar, pita fakta, tiga kartu produk, blok mitra berlatar limau,
-kutipan, tiga jalur order.
+foto penuh lebar, pita fakta, etalase dan tiga kartu produk, blok mitra berlatar
+biru langit, kutipan, tiga jalur order.
 
-## Arah 3 - Hangat Personal
+## Arah 3 - Lembut Personal
 
 Dial ENERGY 2 / RHYTHM 3 / MOTION 1.
 
-Design read: surat dari agen, bukan katalog. Krem dan tanah liat, serif lembut,
-dua jalur langsung di bawah pembuka.
+Design read: surat dari agen, bukan katalog. Biru awan, serif lembut, kartu
+membulat. Dua jalur langsung di bawah pembuka.
 
 | Token | Nilai | Dipakai untuk |
 |---|---|---|
-| krem | #FBF3E7 | latar halaman |
-| kartu | #FFFBF3 | kartu produk |
-| tinta | #33241E | teks utama, panel mitra |
-| redup | #6B564B | teks penjelas |
-| tanah | #A6472A | tombol, harga, nomor |
-| zaitun | #5E6E52 | label kecil |
-| sage | #E7E9DC | bagian mitra |
-| garis | #E6D6C3 | pemisah |
+| kertas | #EDF4FA | latar halaman |
+| kartu | #FFFFFF | kartu produk |
+| tinta | #243A5E | teks utama, panel mitra |
+| redup | #4A627D | teks penjelas |
+| utama | #243A5E | tombol dan harga |
+| label | #46688C | label kecil, tautan |
+| panel | #CFE3F1 | bagian mitra, kartu paket |
+| garis | #C9DCEB | pemisah |
 
 Judul memakai Fraunces, teks Plus Jakarta Sans. Susunan: hero tengah, dua kartu
-jalur (beli satuan dan jadi mitra), daftar produk berpanel, surat mitra dengan
-tanda tangan, kutipan, langkah, ajakan gelap.
+jalur (beli satuan dan jadi mitra), etalase foto persegi, daftar produk berpanel,
+surat mitra dengan tanda tangan, kutipan, langkah, ajakan biru tua.
 
 ## Kontras yang diukur
 
@@ -104,26 +127,26 @@ ulang oleh `tools/audit.py`.
 
 | Arah | Pasangan | Rasio |
 |---|---|---|
-| 1 | tinta di kertas | 15.29:1 |
-| 1 | redup di kertas | 6.17:1 |
-| 1 | putih di hijau | 10.21:1 |
-| 1 | tembaga di kertas | 5.70:1 |
-| 1 | tinta di mint | 13.26:1 |
-| 2 | kertas di malam | 17.57:1 |
-| 2 | redup di malam | 8.82:1 |
-| 2 | limau di malam | 15.52:1 |
-| 2 | malam di limau | 15.52:1 |
-| 2 | putih di biru | 7.04:1 |
-| 2 | redup di panel | 8.06:1 |
-| 3 | tinta di krem | 13.51:1 |
-| 3 | redup di krem | 6.24:1 |
-| 3 | putih di tanah liat | 5.91:1 |
-| 3 | tanah liat di krem | 5.36:1 |
-| 3 | zaitun di krem | 4.98:1 |
-| 3 | tinta di sage | 12.10:1 |
-| pemilih | tinta di kertas | 14.85:1 |
-| pemilih | redup di kertas | 6.25:1 |
-| pemilih | kertas di tinta | 17.04:1 |
+| 1 | tinta di awan | 10.27:1 |
+| 1 | redup di awan | 5.67:1 |
+| 1 | putih di biru tua | 11.40:1 |
+| 1 | denim tua di awan | 5.23:1 |
+| 1 | tinta di langit | 8.64:1 |
+| 2 | awan di malam | 10.27:1 |
+| 2 | redup di malam | 6.99:1 |
+| 2 | langit di malam | 8.64:1 |
+| 2 | malam di langit | 8.64:1 |
+| 2 | putih di panel | 9.51:1 |
+| 2 | redup di panel | 5.83:1 |
+| 3 | tinta di awan | 10.27:1 |
+| 3 | redup di awan | 5.67:1 |
+| 3 | putih di biru tua | 11.40:1 |
+| 3 | denim tua di awan | 5.23:1 |
+| 3 | tinta di langit | 8.64:1 |
+| 3 | redup di langit | 4.77:1 |
+| pemilih | tinta di awan | 10.27:1 |
+| pemilih | redup di awan | 5.67:1 |
+| pemilih | putih di biru tua | 11.40:1 |
 
 ## Aturan isi yang dipegang ketiganya
 
@@ -147,7 +170,7 @@ ulang oleh `tools/audit.py`.
 |---|---|---|
 | dinding-botol.jpeg | dinding.webp dan og.jpg | hero arah 1 dan 3, panggung arah 2, gambar pratinjau WhatsApp |
 | produk-desk.jpeg | produk-100ml.webp | etalase bagian produk di ketiga arah |
-| poster-agen.jpeg | poster-agen.webp | hero arah 2 |
+| poster-agen.jpeg | poster-agen.webp | hero arah 2 dan halaman tentang |
 | poster-mitra.jpeg | poster-mitra.webp | bagian mitra arah 3 |
 | testimoni.jpeg | testimoni.webp | kutipan di ketiga arah |
 

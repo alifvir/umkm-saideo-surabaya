@@ -713,7 +713,7 @@ def arah_1(img):
     return kepala(
         "Saideo Surabaya, deodorant spray non alkohol",
         "Saideo Deodorant Fresh dari agen resmi Surabaya. Harga mulai Rp25.000 untuk botol 100 ml, non alkohol, bisa COD di Perak Utara atau kirim dari Surabaya. Buka mitra mulai 10 pcs.",
-        "arah-1.css", "#F5F8F6", FONTS_1, "/arah-1/",
+        "arah-1.css", "#EDF4FA", FONTS_1, "/arah-1/",
     ) + nav_1("beranda") + f"""
 <main id="utama">
 <section class="hero">
@@ -808,7 +808,7 @@ def arah_1(img):
 
 
 def halaman_1(aktif, judul, deskripsi, path, isi):
-    return kepala(judul, deskripsi, "arah-1.css", "#F5F8F6", FONTS_1, path) + nav_1(aktif) + \
+    return kepala(judul, deskripsi, "arah-1.css", "#EDF4FA", FONTS_1, path) + nav_1(aktif) + \
         '<main id="utama">' + isi + "</main>" + kaki_1() + tutup()
 
 
@@ -818,7 +818,7 @@ def arah_2(img):
     return kepala(
         "Saideo Surabaya, sai goodbye bau badan",
         "Deodorant spray Saideo dari agen resmi Surabaya. Non alkohol, BPOM, aktif seharian. Mulai Rp25.000, COD Perak Utara, buka mitra mulai 10 pcs.",
-        "arah-2.css", "#0C0D10", FONTS_2, "/arah-2/",
+        "arah-2.css", "#243A5E", FONTS_2, "/arah-2/",
     ) + nav_2("beranda") + f"""
 <main id="utama">
 <section class="hero">
@@ -909,7 +909,7 @@ def arah_2(img):
 
 
 def halaman_2(aktif, judul, deskripsi, path, isi):
-    return kepala(judul, deskripsi, "arah-2.css", "#0C0D10", FONTS_2, path) + nav_2(aktif) + \
+    return kepala(judul, deskripsi, "arah-2.css", "#243A5E", FONTS_2, path) + nav_2(aktif) + \
         '<main id="utama">' + isi + "</main>" + kaki_2() + tutup()
 
 
@@ -920,7 +920,7 @@ def arah_3(img):
     return kepala(
         "Saideo Surabaya, deodorant untuk dipakai dan dijual",
         "Saideo Deodorant Fresh dari agen resmi Surabaya. Beli satuan mulai Rp25.000, atau buka mitra mulai 10 pcs. COD Perak Utara, kirim dari Surabaya.",
-        "arah-3.css", "#FBF3E7", FONTS_3, "/arah-3/",
+        "arah-3.css", "#EDF4FA", FONTS_3, "/arah-3/",
     ) + nav_3("beranda") + f"""
 <main id="utama">
 <section class="hero">
@@ -1000,7 +1000,7 @@ def arah_3(img):
 
 
 def halaman_3(aktif, judul, deskripsi, path, isi):
-    return kepala(judul, deskripsi, "arah-3.css", "#FBF3E7", FONTS_3, path) + nav_3(aktif) + \
+    return kepala(judul, deskripsi, "arah-3.css", "#EDF4FA", FONTS_3, path) + nav_3(aktif) + \
         '<main id="utama">' + isi + "</main>" + kaki_3() + tutup()
 
 
@@ -1027,7 +1027,7 @@ def halaman_pemilih():
     return kepala(
         "Tiga arah desain untuk Saideo Surabaya",
         "Pratinjau tiga arah desain situs Saideo Surabaya: Bersih Klinis, Kota Malam, dan Hangat Personal. Setiap arah lima halaman, dengan jalur pembelian dan jalur mitra.",
-        "pemilih.css", "#F2EFE9", "family=Plus+Jakarta+Sans:wght@400;500;600;700", "/",
+        "pemilih.css", "#EDF4FA", "family=Plus+Jakarta+Sans:wght@400;500;600;700", "/",
     ) + f"""
 <main id="utama" class="pilih">
   <div class="wrap">
@@ -1060,7 +1060,7 @@ def halaman_404():
     return kepala(
         "Halaman tidak ditemukan, Saideo Surabaya",
         "Halaman yang dicari tidak ada. Kembali ke pratinjau tiga arah desain.",
-        "pemilih.css", "#F2EFE9", "family=Plus+Jakarta+Sans:wght@400;500;600;700", "/404.html",
+        "pemilih.css", "#EDF4FA", "family=Plus+Jakarta+Sans:wght@400;500;600;700", "/404.html",
     ) + """
 <main id="utama" class="pilih">
   <div class="wrap">
