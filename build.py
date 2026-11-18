@@ -1155,7 +1155,7 @@ def main():
     salin_aset()
 
     tulis("robots.txt", "User-agent: *\nAllow: /\n")
-    tulis("_headers", "/assets/*\n  Cache-Control: public, max-age=604800\n/*\n  Cache-Control: public, max-age=3600\n")
+    tulis("_headers", "/assets/img/*\n  Cache-Control: public, max-age=604800\n/assets/css/*\n  Cache-Control: public, max-age=0, must-revalidate\n/assets/js/*\n  Cache-Control: public, max-age=0, must-revalidate\n/*\n  Cache-Control: public, max-age=3600\n")
 
     ukuran = 0
     jumlah = 0

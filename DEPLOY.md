@@ -66,8 +66,9 @@ Cloudflare mengalihkan `/404.html` ke `/404` (308), jadi uji juga `/404`.
 
 ## Catatan teknis
 
-- `_headers` sudah ada: `/assets/*` cache 7 hari, halaman 1 jam. Nama aset tanpa
-  hash, jadi ganti nama berkas setiap ganti gambar.
+- `_headers` sudah ada: gambar di `/assets/img/*` cache 7 hari, CSS dan JS
+  dimuat ulang setiap kunjungan selama fase pratinjau, halaman 1 jam. Nama aset
+  tanpa hash, jadi ganti nama berkas setiap ganti gambar.
 - Semua path aset absolut (`/assets/...`). Pratinjau lokal wajib lewat server.
 - Halaman 404 memakai `404.html` di akar `dist/`.
 - Kalau hanya satu arah yang dipakai, hapus dua folder `arah-*` dari `dist` dan
