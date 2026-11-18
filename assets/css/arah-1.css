@@ -69,7 +69,7 @@ section[id] { scroll-margin-top: 92px; }
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(245, 248, 246, 0.96);
+  background: rgba(237, 244, 250, 0.96);
   border-bottom: 1px solid var(--garis);
   backdrop-filter: blur(6px);
 }
@@ -620,7 +620,7 @@ section[id] { scroll-margin-top: 92px; }
   background: var(--utama);
   color: #fff;
   border-radius: 999px;
-  box-shadow: 0 8px 24px rgba(12, 74, 58, 0.28);
+  box-shadow: 0 8px 24px rgba(36, 58, 94, 0.28);
 }
 
 /* ---------------------------------------------------------------- halaman dalam */

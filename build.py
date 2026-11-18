@@ -388,7 +388,7 @@ def nav_3(aktif):
     return f"""
 <header class="kepala">
   <div class="wrap kepala__bar">
-    <a class="merek" href="/arah-3/">Saideo <span>Surabaya</span></a>
+    <a class="merek" href="/arah-3/"><span>Saideo</span><span class="merek__kota">Surabaya</span></a>
     <button class="menu-tombol" type="button" data-nav-tombol aria-expanded="false" aria-controls="nav-utama">
       <span class="menu-tombol__garis" aria-hidden="true"></span>Menu
     </button>
