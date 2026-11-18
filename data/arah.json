@@ -1,0 +1,76 @@
+{
+  "judul": "Tiga arah desain untuk Saideo Surabaya",
+  "intro": "Isi dan harga sama di ketiga halaman. Yang berbeda arah visual, susunan bagian, dan cara menonjolkan jalur mitra. Pilih satu, lalu sisanya dipakai sebagai cadangan saat revisi.",
+  "arah": [
+    {
+      "slug": "arah-1",
+      "nama": "Bersih Klinis",
+      "dial": "ENERGY 1 / RHYTHM 2 / MOTION 1",
+      "ringkas": "Putih, hijau tua, dan garis tipis. Terasa seperti produk perawatan yang dijual di apotek modern, bukan iklan ramai.",
+      "cocok": "Cocok kalau pembeli utama ingin yakin dulu soal keamanan dan keterangan produk.",
+      "palet": [
+        ["Kertas", "#F5F8F6"],
+        ["Tinta", "#12231E"],
+        ["Hijau", "#0C4A3A"],
+        ["Tembaga", "#A6431F"],
+        ["Mint", "#DCEBE3"]
+      ],
+      "pasangan": [
+        ["#12231E", "#F5F8F6"],
+        ["#4E615B", "#F5F8F6"],
+        ["#FFFFFF", "#0C4A3A"],
+        ["#A6431F", "#F5F8F6"],
+        ["#12231E", "#DCEBE3"]
+      ]
+    },
+    {
+      "slug": "arah-2",
+      "nama": "Kota Malam",
+      "dial": "ENERGY 4 / RHYTHM 3 / MOTION 2",
+      "ringkas": "Latar hampir hitam, huruf besar dan rapat, hijau limau sebagai penanda. Bahasa poster jalanan Surabaya, langsung ke masalahnya.",
+      "cocok": "Cocok kalau targetnya pembeli muda dan penjual yang aktif di media sosial.",
+      "palet": [
+        ["Malam", "#0C0D10"],
+        ["Panel", "#16181D"],
+        ["Limau", "#D8F25A"],
+        ["Biru", "#1F49D6"],
+        ["Kertas", "#F2F4F1"]
+      ],
+      "pasangan": [
+        ["#F2F4F1", "#0C0D10"],
+        ["#A9AFBB", "#0C0D10"],
+        ["#D8F25A", "#0C0D10"],
+        ["#0C0D10", "#D8F25A"],
+        ["#FFFFFF", "#1F49D6"],
+        ["#A9AFBB", "#16181D"]
+      ]
+    },
+    {
+      "slug": "arah-3",
+      "nama": "Hangat Personal",
+      "dial": "ENERGY 2 / RHYTHM 3 / MOTION 1",
+      "ringkas": "Krem, tanah liat, dan serif lembut. Dua jalur di bawah pembuka: beli satuan atau jadi mitra, ditulis seperti surat dari agen.",
+      "cocok": "Cocok kalau mitra ingin direkrut dengan pendekatan personal, bukan diskon besar.",
+      "palet": [
+        ["Krem", "#FBF3E7"],
+        ["Tinta", "#33241E"],
+        ["Tanah liat", "#A6472A"],
+        ["Zaitun", "#5E6E52"],
+        ["Sage", "#E7E9DC"]
+      ],
+      "pasangan": [
+        ["#33241E", "#FBF3E7"],
+        ["#6B564B", "#FBF3E7"],
+        ["#FFFFFF", "#A6472A"],
+        ["#A6472A", "#FBF3E7"],
+        ["#5E6E52", "#FBF3E7"],
+        ["#33241E", "#E7E9DC"]
+      ]
+    }
+  ],
+  "pemilih_pasangan": [
+    ["#1D1C19", "#F2EFE9"],
+    ["#5C574E", "#F2EFE9"],
+    ["#FFFFFF", "#1D1C19"]
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "nama": "Deodorant Spray 100 ml",
+    "slug": "ekonomis",
+    "label": "Kemasan ekonomis",
+    "harga": 25000,
+    "catatan": "Botol spray 100 ml untuk pemakaian harian.",
+    "fakta": ["Non alkohol", "Aktif seharian"]
+  },
+  {
+    "nama": "Kemasan eksklusif",
+    "slug": "eksklusif",
+    "label": "Kemasan eksklusif",
+    "harga": 30000,
+    "catatan": "Tampilan botol lebih rapi untuk pemakaian di rumah atau hadiah.",
+    "fakta": ["Non alkohol", "Aktif seharian"]
+  },
+  {
+    "nama": "Paket bundling 2 pcs",
+    "slug": "bundling",
+    "label": "Hemat",
+    "harga": 42000,
+    "catatan": "Dua botol kemasan ekonomis 100 ml, satu untuk di rumah dan satu untuk di tas.",
+    "fakta": ["Non alkohol", "Hemat Rp8.000"]
+  }
+]

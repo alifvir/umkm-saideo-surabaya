@@ -1,0 +1,21 @@
+{
+  "pembuka": "Mulai dari 10 pcs.",
+  "ringkas": "Saideo dipakai harian, jadi pembelinya kembali. Agen Surabaya membuka kemitraan mulai 10 pcs untuk dijual lagi di sekitar rumah, toko, atau lapak online.",
+  "alasan": [
+    ["Mulai 10 pcs", "Jumlah awalnya kecil, tidak perlu menumpuk stok untuk mencoba."],
+    ["Harga mitra", "Harga per pcs lebih rendah dari harga eceran yang dijual di situs ini."],
+    ["Ambil di Surabaya", "Barang bisa diambil atau COD di Perak Utara, atau dikirim dari Surabaya."],
+    ["Sudah BPOM", "Produk deodorant non alkohol dengan keterangan BPOM dari merek."]
+  ],
+  "paket": [
+    ["Paket mulai", "10 pcs", "Untuk mencoba jual ke lingkaran terdekat dulu."],
+    ["Paket toko", "menyusul", "Untuk yang sudah punya pelanggan tetap."],
+    ["Paket grosir", "menyusul", "Untuk reseller dan kios yang butuh jumlah lebih besar."]
+  ],
+  "langkah": [
+    ["Chat WhatsApp", "Sebutkan area dan perkiraan jumlah pcs yang mau diambil."],
+    ["Pilih paket", "Kami kirim rincian harga mitra dan isi paket, lalu konfirmasi pembayaran."],
+    ["Ambil atau kirim", "Ambil di Perak Utara, atau terima kiriman dari Surabaya."],
+    ["Jual dan ulang", "Setelah habis, pesan lagi lewat chat yang sama."]
+  ]
+}
