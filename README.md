@@ -8,7 +8,8 @@ Calm Ocean #8FB6D8, Dusty Denim #5F86A6, dan Midnight Blue #243A5E. Dua turunan
 dipakai untuk teks agar lolos AA: #4A627D dan #46688C. Alasannya di `DESIGN.md`.
 
 Bukan situs final. Harga, nomor WhatsApp, dan beberapa keterangan masih menunggu
-konfirmasi pemilik (lihat bagian "Yang menunggu klien").
+konfirmasi pemilik (lihat bagian "Yang menunggu klien"). Kondisi kerja terakhir
+dan langkah lanjutan ada di `STATUS.md`.
 
 ## Halaman
 
@@ -115,5 +116,8 @@ mengizinkan folder `dist` dihapus saat masih dipakai server.
    bundling belum ada.
 
 ## Deploy
+
+Live: https://mockup-saideo-surabaya.pages.dev (Cloudflare Pages, build otomatis
+dari `main`). Repo: `alifvir/umkm-saideo-surabaya`.
 
 Lihat `DEPLOY.md`. Jangan deploy sebelum klien memilih arah desain.
